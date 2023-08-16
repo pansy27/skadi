@@ -4,6 +4,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background: #f9fbff;
+    color: #333333;
 }
 
 .wrapper {
@@ -14,12 +15,10 @@ body {
 }
 
 /* common styles */
-a {
-    text-decoration: none;
-}
-
+a,
 a:visited {
-    color: #333333;
+    text-decoration: none;
+    color: #333333; 
 }
 
 a:hover {
@@ -29,7 +28,6 @@ a:hover {
 /* header part */
 .header-container, .footer {
     background-color: #eebab2;
-    color: #333333;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,8 +50,6 @@ a:hover {
 
 /* middle part */
 .content-container {
-    background: #f9fbff;
-    color: #333333;
     display: flex;
     flex: auto;
     flex-direction: column;
