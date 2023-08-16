@@ -1,5 +1,5 @@
 body {
-    font-family: 'Choco cooky', 'Comic Neue', sans-serif;
+    font-family: goober, 'Choco cooky', 'Comic Neue', sans-serif;
     font-size: 1.3em;
     margin: 0;
     box-sizing: border-box;
@@ -7,6 +7,11 @@ body {
     color: #333333;
 }
 
+/* custom font */
+@font-face {
+    font-family: 'goober';
+    src: url(fonts/Chococooky.ttf);
+}
 .wrapper {
     display: flex;
     flex-direction: column;
