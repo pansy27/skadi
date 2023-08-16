@@ -133,6 +133,7 @@ a:hover {
     gap: 10px;
 }
 
+.part-3 a,
 .part-3 a:visited {
     color: #8378c6;
 }
