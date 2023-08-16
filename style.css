@@ -1,0 +1,222 @@
+body {
+    font-family: 'Choco cooky', 'Comic Neue', sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f9fbff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* common styles */
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #333333;
+}
+
+a:hover {
+    color: #42536b;
+}
+
+/* header part */
+.header-container, .footer {
+    background-color: #eebab2;
+    color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 45px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    width: 30px; 
+}
+
+.icon.github {
+    margin-left: 30px;
+}
+
+/* middle part */
+.content-container {
+    background: #f9fbff;
+    color: #333333;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-container > * {
+    display: flex;
+    flex: auto;
+}
+
+/* part-1 */
+.part-1 {
+    min-height: 40vh;
+    margin: 25px 50px;
+    padding: 40px;
+    gap: 10px;
+}
+
+.part-1 .left-side {
+    padding: 40px;
+}
+
+.part-1 .left-side .card-title {
+    font-size: 2.5em;
+}
+
+.part-1 .left-side > div {
+    font-size: 1.8em;
+}
+
+.part-1 .left-side > p {
+    font-size: 0.8em;
+}
+
+.part-1 .right-side {
+    display: flex;
+}
+
+.right-side .first-image {
+    width: 450px;
+    align-self: center;
+    border-radius: 10px;
+    transform: rotate(4deg);
+    border: 5px dotted #8378c6;
+}
+
+/* part-2 */
+.part-2 {
+    background-color: #d1beef;
+    border-radius: 5px;
+    min-height: 40vh;
+    margin: 25px 50px;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.part-2 .left-side {
+    padding: 40px;
+}
+
+.part-2 .left-side li {
+    margin: 5px auto;
+}
+
+.part-2 .right-side {
+    flex-basis: 33%;
+}
+
+.part-2 .left-side .card-title {
+    font-size: 2em;
+}
+ 
+/* part-3 */
+.part-3 {
+    background-color: #f5e2e4;
+    border-radius: 5px;
+    min-height: 50vh;
+    margin: 25px 50px;
+    padding: 40px;
+    gap: 10px;
+}
+
+.part-3 a:visited {
+    color: #8378c6;
+}
+
+.part-3 .left-side {
+    padding: 20px;
+}
+
+.part-3 .left-side .card-title {
+    font-size: 2em;
+}
+
+.artwork-container,
+.right-side {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.artwork-container .top {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.artwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.artwork img {
+    width: 330px;
+    border-radius: 5px;
+}
+
+.artwork-1 img {
+    width: 330px;
+}
+
+.artwork-2 img {
+    height: 430px;
+}
+
+.artwork-3 img {
+    width: 600px;
+}
+
+.right-side img {
+    height: 500px;
+    width: auto;
+}
+
+.artwork-5 img {
+    height: 415px;
+}
+
+/* part-4 */
+.part-4 {
+    min-height: 40vh;
+    margin: 25px 50px;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+}
+
+.part-4 .right-side {
+    padding: 40px;
+}
+
+.part-4 .left-side img {
+    width: 340px;
+}
+
+.part-4 img {
+    border-radius: 5px;
+}
+
+.patchouli {
+    width: 440px;
+}
